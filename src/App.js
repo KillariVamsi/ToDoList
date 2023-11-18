@@ -26,8 +26,8 @@ function App() {
     let toDoItemsCopy = [...toDoItems]
     toDoItemsCopy.splice(i,1,updatedValueElement.value)
     setToDoItems(toDoItemsCopy)
-    updateInputElementUsingUseRef.current.value = ""
-    // updatedValueElement.value = ""       (It will update the input field directly in DOM )
+    //updateInputElementUsingUseRef.current.value = ""
+    updatedValueElement.value = ""       //(It will update the input field directly in DOM )
 
   }
 
